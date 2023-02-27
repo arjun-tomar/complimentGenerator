@@ -1,0 +1,12 @@
+//Arjun Tomar
+//2/27/2023
+//Gives the user a big complement to brighten up their day. Complement can be random or be chosen in categories
+public class complementGenerator
+{
+  String request = String.parseString(args[0]);
+  if (request == 'Y' || 'y')
+  {
+    System.out.println("What type of compliment would you like? Type the number corresponding to it)
+    System.out.println("1. 
+  }
+}
