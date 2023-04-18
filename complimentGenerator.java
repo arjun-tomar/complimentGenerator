@@ -25,12 +25,12 @@ public class complimentGenerator
 		{
 			if(request == 'N' || request == 'n')
 			{
-				System.out.println("Alright, printing out a random compliment for you!");
+				System.out.println("Okay, printing out a random compliment for you!");
 			}
-			else
-			{
-				System.out.println("Sorry, I could not understand what you said, so I will assume you said N.");
-			}
+		else
+		{
+			System.out.println("Sorry, I could not understand what you said, so I will assume you said no.");
+		}
 		}
 		//I am aiming for 100ish compliments, 25 random, 25 Heartwarming, 25 Friendly, and 25 Extremely positive
 		for(int i = 0; i < numberC; i++)
