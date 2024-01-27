@@ -3,7 +3,7 @@
 //Gives the user a big compliment to brighten up their day. Compliment can be random or be chosen in categories
 import java.util.*;
 import static java.lang.Math.;
-
+//unfinished as of 1/26/2024, will revisit eventually
 public class complimentGenerator
 {
 	public static void main(String args[])
@@ -32,7 +32,7 @@ public class complimentGenerator
 			System.out.println("Sorry, I could not understand what you said, so I will assume you said no.");
 		}
 		}
-		//I am aiming for 100ish compliments, 25 random, 25 Heartwarming, 25 Friendly, and 25 Extremely positive
+		//I am aiming for 100ish compliments, 25 uplifting, 25 Heartwarming, 25 Friendly, and 25 Extremely positive
 		for(int i = 0; i < numberC; i++)
 		{
 			if (number != 1 || number != 2 || number != 3)
